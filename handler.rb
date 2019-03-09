@@ -1,5 +1,4 @@
 require 'haml'
-require 'pry'
 
 def haml(template)
   file_path = File.join(File.expand_path(__dir__), 'views', "#{template}.haml")

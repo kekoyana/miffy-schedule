@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns:cc="http://web.resource.org/cc/"
+xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="https://www.dickbruna.jp/">
+<title>sample!  RSS</title>
+<link>https://www.dickbruna.jp/</link>
+<description>ほんぶん</description>
+<dc:creator></dc:creator>
+<dc:date>2019-03-04T14:00:00+09:00</dc:date>
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="https://example.com/2.html" />
+<rdf:li rdf:resource="https://example.com/1.html" />
+</rdf:Seq>
+</items>
+</channel>
+
+<item rdf:about="https://example.com/1.html">
+<title>北海道でイベント開催</title>
+<link>https://example.com/1.html</link>
+<description>2019年3月15日（金）から4月14日（日）まで、北海道でイベント開催中です
+
+期間：2019年3月15日（金）～4月14日（日) 場所：北海道</description>
+<dc:subject>トピックス</dc:subject>
+<dc:creator></dc:creator>
+<dc:date>2019-03-09T14:00:00+09:00</dc:date>
+</item>
+
+<item rdf:about="https://example.com/1.html">
+<title>東北でイベント開催</title>
+<link>https://example.com/1.html</link>
+<description>2019年3月5日（金）から4月4日（日）まで、東北でイベント開催中です
+
+期間：2019年3月5日（金）～4月4日（日) 場所：東北</description>
+<dc:subject>トピックス</dc:subject>
+<dc:creator></dc:creator>
+<dc:date>2019-03-09T12:00:00+09:00</dc:date>
+</item>
+
+</rdf:RDF>
