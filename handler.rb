@@ -5,7 +5,7 @@ require 'models/dickbruna'
 
 def haml(template)
   file_path = File.join(File.expand_path(__dir__), 'views', "#{template}.haml")
-  haml_data = File.read(file_path)
+  haml_data = File.read(file_path).force_encoding(Encoding::UTF_8)
   render html: Haml::Engine.new(haml_data).render(self)
 end
 
