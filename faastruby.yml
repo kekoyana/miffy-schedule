@@ -1,7 +1,7 @@
 ---
 cli_version: 0.5.5
 name: miffy-schedule
-runtime: ruby:2.5.3
+runtime: ruby:2.6.3
 test_command: rspec
 abort_build_when_tests_fail: true
 abort_deploy_when_tests_fail: true
