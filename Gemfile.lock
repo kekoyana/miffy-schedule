@@ -32,7 +32,7 @@ GEM
     faastruby-rpc (0.2.7)
       oj (~> 3.6)
     ffi (1.11.1)
-    haml (5.1.1)
+    haml (5.1.2)
       temple (>= 0.8.0)
       tilt
     haml-lint (0.999.999)
