@@ -37,10 +37,9 @@ GEM
       tilt
     haml-lint (0.999.999)
       haml_lint
-    haml_lint (0.32.0)
+    haml_lint (0.34.2)
       haml (>= 4.0, < 5.2)
       rainbow
-      rake (>= 10, < 13)
       rubocop (>= 0.50.0)
       sysexits (~> 1.1)
     hashdiff (1.0.0)
@@ -67,7 +66,7 @@ GEM
       sourcemap (~> 0.1.0)
     opal-jquery (0.4.3)
       opal (>= 0.10.0, < 0.12.0)
-    parallel (1.17.0)
+    parallel (1.19.1)
     parser (2.3.3.1)
       ast (~> 2.2)
     pastel (0.7.2)
@@ -87,7 +86,7 @@ GEM
       rack
     rainbow (2.2.2)
       rake
-    rake (12.3.2)
+    rake (13.0.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -139,8 +138,8 @@ GEM
       unicode_utils (~> 1.4)
     strings-ansi (0.1.0)
     sysexits (1.2.0)
-    temple (0.8.1)
-    tilt (2.0.9)
+    temple (0.8.2)
+    tilt (2.0.10)
     tty-color (0.4.3)
     tty-cursor (0.7.0)
     tty-screen (0.6.5)
@@ -155,7 +154,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.6)
-    unicode-display_width (1.6.0)
+    unicode-display_width (1.6.1)
     unicode_utils (1.4.0)
     webmock (3.8.2)
       addressable (>= 2.3.6)
